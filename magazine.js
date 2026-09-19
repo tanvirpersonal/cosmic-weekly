@@ -2,7 +2,7 @@
  * COSMIC MAGAZINE — CONTENT CONTROL FILE
  */
 export const magazine = {
-  name: "Cosmic Magazine",
+  name: "Cosmic Weekly",
   tagline: "Science · Technology · Ideas · Discovery",
   issue: "Vol. 01",
   year: "2026",
