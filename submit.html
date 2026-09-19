@@ -4,8 +4,8 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#07080b">
-<meta name="description" content="Submit an article, article with image, or other format to Cosmic Magazine.">
-<title>Submit — Cosmic Magazine</title>
+<meta name="description" content="Submit an article, article with image, or other format to Cosmic Weekly.">
+<title>Submit — Cosmic Weekly</title>
 <link rel="icon" href="favicon.svg">
 <style>
 :root{--bg:#07080b;--surface:#0d0f14;--surface2:#12151b;--ink:#f4f5f7;--muted:#9298a5;--line:#242832;--accent:#ff3b30;--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(850px 500px at 85% -10%,rgba(255,59,48,.1),transparent 60%),var(--bg);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.6}button,input,textarea,select{font:inherit}button{cursor:pointer}.wrap{width:min(var(--max),calc(100% - 32px));margin:auto}.mast{position:sticky;top:0;z-index:10;background:rgba(7,8,11,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.top{min-height:78px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:clamp(2rem,5vw,3.7rem);font-weight:900;letter-spacing:-.075em;line-height:.85;color:var(--ink);text-decoration:none}.brand i{font-style:normal;color:var(--accent)}nav{display:flex;gap:24px;padding:0 0 13px;overflow:auto}nav a{color:var(--muted);text-decoration:none;font:800 .65rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.12em;white-space:nowrap}nav a:hover{color:var(--ink)}main{padding:70px 0 90px}.intro{display:grid;grid-template-columns:1fr .65fr;gap:55px;align-items:end;border-bottom:1px solid var(--line);padding-bottom:45px}.kicker{color:var(--accent);font:900 .65rem Arial,sans-serif;text-transform:uppercase;letter-spacing:.18em}.intro h1{font-size:clamp(3.5rem,9vw,7rem);line-height:.8;letter-spacing:-.08em;margin:12px 0 20px}.intro p{color:var(--muted);max-width:620px;font-size:1.05rem}.note{border-left:2px solid var(--accent);padding-left:18px;color:var(--muted);font-size:.9rem}.note b{color:var(--ink)}
@@ -173,7 +173,7 @@ footer{border-top:1px solid var(--line);padding:25px 0 42px;color:#656b77;font:8
 
 <footer>
   <div class="wrap" style="display:flex;justify-content:space-between;gap:20px">
-    <span>© 2026 Cosmic Magazine</span>
+    <span>© 2026 Cosmic Weekly</span>
     <span>CosmicTanvir · For curious minds</span>
   </div>
 </footer>
@@ -275,7 +275,7 @@ q('imageForm').addEventListener('submit',async e=>{
     });
 
     // 2. Open Gmail pre-filled
-    const subject = `[${id}] Cosmic Magazine — Article + Image Submission`;
+    const subject = `[${id}] Cosmic Weekly — Article + Image Submission`;
     const body = `Submission ID: ${id}\nName: ${author}\nSender Email: ${email}\nSection: ${section}\nTitle: ${title}\n\n--- ARTICLE TEXT ---\n${text}\n\n---------------------------\n⚠️ PLEASE ATTACH YOUR COVER IMAGE BEFORE SENDING THIS EMAIL.`;
     
     openGmail(subject, body);
@@ -311,7 +311,7 @@ q('fileForm').addEventListener('submit',async e=>{
     });
 
     // 2. Open Gmail pre-filled
-    const subject = `[${id}] Cosmic Magazine — Document Submission`;
+    const subject = `[${id}] Cosmic Weekly — Document Submission`;
     const body = `Submission ID: ${id}\nName: ${author}\nSender Email: ${email}\nTitle / Description: ${title}\n\n---------------------------\n⚠️ PLEASE ATTACH YOUR FILE (PDF, DOCX, ZIP, etc.) BEFORE SENDING THIS EMAIL.`;
 
     openGmail(subject, body);
