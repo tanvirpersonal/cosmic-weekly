@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `█████░░░░░░░░░░░░░░░` 14/52 items (27%)
+**Progress:** `█████░░░░░░░░░░░░░░░` 15/52 items (29%)
 
-- **Last finished:** #14 — `data/site.json`
-- **Next up:** #15 — `data/topics.json` (topic list (Cosmos, Physics, Technology, Mind, Earth, Ideas))
+- **Last finished:** #15 — `data/topics.json`
+- **Next up:** #16 — `content/articles/inside-a-black-hole.md`
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 

@@ -80,7 +80,7 @@ cosmic-weekly/
 ## Phase 2 — Data & content
 
 - [x] **14** `data/site.json` — site name, tagline, nav, social, SEO defaults
-- [ ] **15** `data/topics.json` — topic list (Cosmos, Physics, Technology, Mind, Earth, Ideas)
+- [x] **15** `data/topics.json` — topic list (Cosmos, Physics, Technology, Mind, Earth, Ideas)
 - [ ] **16** `content/articles/inside-a-black-hole.md`
 - [ ] **17** `content/articles/webb-and-the-first-galaxies.md`
 - [ ] **18** `content/articles/how-machines-learn.md`

@@ -1,0 +1,44 @@
+[
+  {
+    "id": "cosmos",
+    "name": "Cosmos",
+    "icon": "🪐",
+    "description": "Stars, galaxies, black holes and the story of the universe.",
+    "colors": ["#8b7bff", "#2fd6e8"]
+  },
+  {
+    "id": "physics",
+    "name": "Physics",
+    "icon": "⚛️",
+    "description": "The rules beneath everything, from particles to patterns in snow.",
+    "colors": ["#2fd6e8", "#4fe3a1"]
+  },
+  {
+    "id": "technology",
+    "name": "Technology",
+    "icon": "🛰️",
+    "description": "Machines that learn, tools that reshape how we think and live.",
+    "colors": ["#f5b94a", "#ff6b81"]
+  },
+  {
+    "id": "mind",
+    "name": "Mind",
+    "icon": "🧠",
+    "description": "Sleep, memory, attention and the strange machinery of the brain.",
+    "colors": ["#ff6b81", "#8b7bff"]
+  },
+  {
+    "id": "earth",
+    "name": "Earth",
+    "icon": "🌍",
+    "description": "Climate, oceans, life and the planet we are still learning to read.",
+    "colors": ["#4fe3a1", "#2fd6e8"]
+  },
+  {
+    "id": "ideas",
+    "name": "Ideas",
+    "icon": "💡",
+    "description": "Essays on thinking well, living slowly and asking better questions.",
+    "colors": ["#f5b94a", "#8b7bff"]
+  }
+]
