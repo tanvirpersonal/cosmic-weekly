@@ -22,12 +22,14 @@
 
 - [x] Set the editorial contact email in `data/site.json`.
 - [x] Enable GitHub Pages: branch `2.0`, folder `/(root)` (Pages build has run successfully).
-- [ ] Verify the Pages deployment workflow and live URL.
+- [ ] Select **GitHub Actions** as the Pages Source, then verify the new deployment workflow and live URL.
 - [ ] Complete desktop/mobile, keyboard, contrast and Lighthouse QA.
 
-## Automated checks
+## Automated checks and deployment
 
-A GitHub Actions workflow checks JavaScript syntax, local HTML links, article body references, topic references and JSON data on pushes and pull requests targeting `2.0`.
+The validation workflow checks JavaScript syntax, local HTML links, article body references, topic references and JSON data on pushes and pull requests targeting `2.0`.
+
+The deployment workflow in `.github/workflows/deploy-pages.yml` validates the site and then deploys it with the official GitHub Pages actions on pushes to `2.0` or manual dispatch. **Pages Source must be GitHub Actions** for this workflow to deploy successfully.
 
 ## Deployment target
 
