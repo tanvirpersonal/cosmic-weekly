@@ -1,0 +1,313 @@
+/* ==========================================================================
+   Cosmic Weekly — Page styles
+   Home hero & sections, archive toolbar, about, contact, 404.
+   ========================================================================== */
+
+/* ---- Generic page head -------------------------------------------------- */
+
+.page-head {
+  padding-block: var(--space-8) var(--space-6);
+}
+
+.page-head h1 {
+  font-size: var(--step-4);
+  margin-top: var(--space-3);
+}
+
+.page-head p {
+  max-width: 56ch;
+  margin: var(--space-4) 0 0;
+  font-size: var(--step-1);
+  color: var(--text-dim);
+}
+
+/* ---- Home: hero --------------------------------------------------------- */
+
+.hero {
+  position: relative;
+  padding-block: clamp(var(--space-7), 12vh, var(--space-9)) var(--space-8);
+  overflow: hidden;
+}
+
+.hero__inner {
+  position: relative;
+  z-index: var(--z-base);
+  max-width: 820px;
+}
+
+.hero__eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: 0.5em 1.1em 0.5em 0.9em;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-pill);
+  background: color-mix(in srgb, var(--surface) 70%, transparent);
+}
+
+.hero__eyebrow::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--success);
+  box-shadow: 0 0 12px var(--success);
+  animation: pulse 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse { 50% { opacity: 0.35; transform: scale(0.8); } }
+
+.hero__title {
+  margin-top: var(--space-5);
+  font-size: var(--step-5);
+  line-height: 1.02;
+}
+
+.hero__title em {
+  font-style: italic;
+  font-weight: 500;
+  background: var(--aurora);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero__lede {
+  max-width: 54ch;
+  margin: var(--space-5) 0 0;
+  font-size: var(--step-1);
+  color: var(--text-dim);
+}
+
+.hero__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-3);
+  margin-top: var(--space-6);
+}
+
+.hero__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5) var(--space-7);
+  margin-top: var(--space-7);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--line);
+}
+
+.hero__stat strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: var(--step-3);
+  line-height: 1;
+}
+
+/* Decorative orbiting planet (pure CSS) */
+.hero__orbit {
+  position: absolute;
+  top: 50%;
+  right: clamp(-12rem, -8vw, -2rem);
+  width: clamp(18rem, 46vw, 40rem);
+  aspect-ratio: 1;
+  transform: translateY(-50%);
+  pointer-events: none;
+  opacity: 0.9;
+}
+
+.hero__orbit::before {
+  content: "";
+  position: absolute;
+  inset: 18%;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 30% 28%, #ffe9b8 0%, #f5b94a 22%, #8b7bff 62%, #1a1250 100%);
+  box-shadow: var(--glow), inset -30px -30px 70px rgba(0, 0, 0, 0.55);
+  animation: float 9s ease-in-out infinite;
+}
+
+.hero__orbit::after {
+  content: "";
+  position: absolute;
+  inset: 4%;
+  border-radius: 50%;
+  border: 1px solid var(--line-strong);
+  border-top-color: var(--accent-2);
+  animation: spin 24s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+@keyframes float { 50% { transform: translateY(-14px); } }
+
+@media (max-width: 760px) {
+  .hero__orbit { opacity: 0.35; right: -35%; }
+}
+
+/* ---- Home: topics ------------------------------------------------------- */
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 230px), 1fr));
+  gap: var(--space-4);
+}
+
+.topic-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  padding: var(--space-5);
+  min-height: 170px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  text-decoration: none;
+  overflow: hidden;
+  transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease);
+}
+
+.topic-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--aurora-soft);
+  opacity: 0;
+  transition: opacity var(--dur) var(--ease);
+}
+
+.topic-card:hover { transform: translateY(-5px); border-color: var(--line-strong); color: var(--text); }
+.topic-card:hover::before { opacity: 1; }
+.topic-card > * { position: relative; }
+
+.topic-card__icon { font-size: 1.8rem; line-height: 1; }
+.topic-card__name { font-family: var(--font-display); font-size: var(--step-2); margin-top: auto; }
+.topic-card__desc { margin: 0; font-size: var(--step--1); color: var(--text-dim); }
+
+/* ---- Home: call to action band ------------------------------------------ */
+
+.cta-band {
+  position: relative;
+  padding: clamp(var(--space-6), 6vw, var(--space-8));
+  text-align: center;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: var(--aurora-soft), var(--surface);
+  overflow: hidden;
+}
+
+.cta-band h2 { font-size: var(--step-4); }
+.cta-band p { max-width: 50ch; margin: var(--space-4) auto var(--space-5); color: var(--text-dim); font-size: var(--step-1); }
+
+/* ---- Archive ------------------------------------------------------------ */
+
+.archive-toolbar {
+  position: sticky;
+  top: var(--header-h);
+  z-index: var(--z-base);
+  display: grid;
+  gap: var(--space-4);
+  padding-block: var(--space-4);
+  margin-bottom: var(--space-5);
+  background: color-mix(in srgb, var(--bg) 85%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--line);
+}
+
+.archive-toolbar__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.archive-toolbar__row .input { flex: 1 1 260px; }
+.archive-toolbar__row .select { flex: 0 0 auto; width: auto; min-width: 190px; }
+
+.archive-filters {
+  display: flex;
+  gap: var(--space-2);
+  overflow-x: auto;
+  padding-bottom: var(--space-1);
+  scrollbar-width: none;
+}
+
+.archive-filters::-webkit-scrollbar { display: none; }
+.archive-filters .chip { flex: none; }
+
+.archive-count { margin: 0 0 var(--space-4); }
+
+/* ---- About -------------------------------------------------------------- */
+
+.about-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: var(--space-7);
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .about-split { grid-template-columns: minmax(0, 1fr); gap: var(--space-5); }
+}
+
+.about-prose p { font-size: var(--step-1); color: var(--text-dim); }
+.about-prose p:first-child { font-size: var(--step-2); color: var(--text); font-family: var(--font-display); }
+
+.value-card {
+  padding: var(--space-5);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+
+.value-card__num { font-family: var(--font-mono); font-size: var(--step--1); color: var(--accent-2); }
+.value-card h3 { margin: var(--space-3) 0 var(--space-2); font-size: var(--step-1); }
+.value-card p { margin: 0; font-size: var(--step--1); color: var(--text-dim); }
+
+/* ---- Contact ------------------------------------------------------------ */
+
+.contact-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  gap: var(--space-7);
+  align-items: start;
+}
+
+@media (max-width: 860px) {
+  .contact-layout { grid-template-columns: minmax(0, 1fr); }
+}
+
+.form-panel {
+  display: grid;
+  gap: var(--space-4);
+  padding: clamp(var(--space-5), 4vw, var(--space-6));
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+
+.form-panel__row { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--space-4); }
+@media (max-width: 560px) { .form-panel__row { grid-template-columns: minmax(0, 1fr); } }
+
+.info-list { display: grid; gap: var(--space-4); margin: 0; padding: 0; list-style: none; }
+.info-list li { padding-bottom: var(--space-4); border-bottom: 1px solid var(--line); }
+.info-list strong { display: block; font-family: var(--font-display); font-size: var(--step-1); margin-bottom: var(--space-1); }
+
+/* ---- 404 ---------------------------------------------------------------- */
+
+.notfound {
+  display: grid;
+  place-items: center;
+  min-height: 70vh;
+  padding-block: var(--space-8);
+  text-align: center;
+}
+
+.notfound__code {
+  font-family: var(--font-display);
+  font-size: clamp(6rem, 24vw, 14rem);
+  font-weight: 700;
+  line-height: 0.9;
+  letter-spacing: -0.05em;
+}
+
+.notfound p { max-width: 46ch; margin: var(--space-4) auto var(--space-5); color: var(--text-dim); font-size: var(--step-1); }
