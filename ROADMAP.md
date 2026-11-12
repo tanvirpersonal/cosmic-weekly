@@ -72,7 +72,7 @@ cosmic-weekly/
 
 - [x] **08** `css/tokens.css` — colors, type scale, spacing, radius, shadows, motion, dark/light themes
 - [x] **09** `css/base.css` — reset, typography, focus, selection, skip link, utilities
-- [ ] **10** `css/layout.css` — container, grid, section rhythm, header/footer shells
+- [x] **10** `css/layout.css` — container, grid, section rhythm, header/footer shells
 - [ ] **11** `css/components.css` — buttons, chips, cards, forms, nav, toast, search overlay
 - [ ] **12** `css/pages.css` — hero, home sections, archive, about, contact, 404
 - [ ] **13** `css/reader.css` — article typography, progress bar, TOC, code, quotes, tables
