@@ -1,0 +1,1 @@
+import {h} from "../core/dom.js";let root;export function toast(msg,type="success"){if(!root){root=h("div",{class:"toast-region","aria-live":"polite"});document.body.append(root);}const el=h("div",{class:"toast toast--"+type},msg);root.append(el);setTimeout(()=>el.remove(),3000);}
