@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `██████░░░░░░░░░░░░░░` 16/52 items (31%)
+**Progress:** `██████░░░░░░░░░░░░░░` 17/52 items (33%)
 
-- **Last finished:** #16 — `content/articles/inside-a-black-hole.md`
-- **Next up:** #17 — `content/articles/webb-and-the-first-galaxies.md`
+- **Last finished:** #17 — `content/articles/webb-and-the-first-galaxies.md`
+- **Next up:** #18 — `content/articles/how-machines-learn.md`
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 

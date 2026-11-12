@@ -82,7 +82,7 @@ cosmic-weekly/
 - [x] **14** `data/site.json` — site name, tagline, nav, social, SEO defaults
 - [x] **15** `data/topics.json` — topic list (Cosmos, Physics, Technology, Mind, Earth, Ideas)
 - [x] **16** `content/articles/inside-a-black-hole.md`
-- [ ] **17** `content/articles/webb-and-the-first-galaxies.md`
+- [x] **17** `content/articles/webb-and-the-first-galaxies.md`
 - [ ] **18** `content/articles/how-machines-learn.md`
 - [ ] **19** `content/articles/the-physics-of-a-snowflake.md`
 - [ ] **20** `content/articles/why-we-dream.md`
