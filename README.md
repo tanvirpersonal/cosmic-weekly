@@ -6,7 +6,7 @@ A static editorial magazine about the cosmos, physics, technology, the mind and 
 
 - **Implementation:** 10/10 milestones complete (100%).
 - **Launch readiness:** 12/14 checklist items complete (86%).
-- GitHub Pages is enabled and its build has succeeded. Final deployment verification and live-site QA remain.
+- The GitHub Actions deployment workflow is committed. Switching Pages Source to GitHub Actions, confirming deployment, and live-site QA remain.
 
 See [ROADMAP.md](ROADMAP.md) for the tracked checklist.
 
@@ -21,9 +21,10 @@ Open http://localhost:8080/ from the repository root.
 ## Deploy to GitHub Pages
 
 1. Open **Settings → Pages**.
-2. Choose **Deploy from a branch**.
-3. Select branch **2.0** and folder **/(root)**, then Save.
-4. Wait for the Pages deployment workflow to finish.
+2. Under **Build and deployment**, choose **GitHub Actions** as the Source (one-time repository setting).
+3. Push to branch **2.0**, or manually run **Actions → Deploy Cosmic Weekly to GitHub Pages → Run workflow**.
+4. The workflow validates JavaScript, JSON, local links and article references before uploading and deploying the static site.
+5. Confirm the workflow's **deploy** job succeeds, then check the live URL.
 
 Expected project URL: https://tanvirpersonal.github.io/cosmic-weekly/
 
@@ -45,10 +46,10 @@ See [Content guide](docs/CONTENT-GUIDE.md) and [Architecture](docs/ARCHITECTURE.
 ## Launch requirements
 
 - Editorial contact email is configured in `data/site.json`.
-- GitHub Pages is enabled using branch `2.0` and folder `/(root)`.
+- GitHub Pages was previously enabled using branch `2.0` and folder `/(root)`. Switch **Source** to **GitHub Actions** to use the new deployment workflow.
 - Verify the deployment and run desktop/mobile, keyboard, contrast and Lighthouse checks.
 
-GitHub Pages settings cannot be changed by a normal repository commit. The repository owner must enable the branch in **Settings → Pages**.
+GitHub Pages Source settings cannot be changed by a normal repository commit. The repository owner must select **GitHub Actions** in **Settings → Pages**.
 
 ## License
 
