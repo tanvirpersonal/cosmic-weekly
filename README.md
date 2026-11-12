@@ -1,61 +1,43 @@
-# Cosmic Weekly
+# Cosmic Weekly 2.0
 
-A dynamic, editorial-style magazine website about the cosmos, physics, technology, the mind and big ideas. Pure HTML, CSS and ES modules — no build step, no framework, ready for GitHub Pages.
-
-## Build status
-
-<!-- STATUS:START -->
-**Progress:** `██████████░░░░░░░░░░` 26/52 items (50%)
-
-- **Last finished:** #26 — `js/core/data.js`
-- **Next up:** #27 — `js/lib/markdown.js` (safe Markdown → HTML (headings, lists, quotes, code, tables, links, images))
-- **Updated:** 2026-11-12
-<!-- STATUS:END -->
-
-The full checklist lives in [`ROADMAP.md`](./ROADMAP.md). Every file there has a checkbox; a ticked box means the file is finished and pushed.
-
-### Continuing after a break
-
-1. `git checkout 1.0 && git pull origin 1.0`
-2. Open `ROADMAP.md` and take the first unchecked item.
-3. Build that one file, then run `bash scripts/ship.sh <ID> "<message>"`.
-
-## Features (planned for 1.0)
-
-- Home with animated starfield hero, featured story, latest stories and topic explorer
-- Article archive with live search, topic filters, sorting and shareable URLs
-- Reader with reading-progress bar, table of contents, related stories and prev/next
-- Dark and light themes (remembers the choice, respects system settings)
-- Full keyboard support, reduced-motion support and responsive layout
-- Content as Markdown files — add an article without touching any code
+A static editorial magazine about the cosmos, physics, technology, the mind and big ideas. Built with semantic HTML, modular CSS and native JavaScript ES modules. No framework or build step is required.
 
 ## Run locally
 
-Any static server works (ES modules need `http://`, not `file://`):
-
 ```bash
 python3 -m http.server 8080
-# open http://localhost:8080
 ```
 
-## Project structure
+Open http://localhost:8080/ from the repository root.
 
-See the target tree in [`ROADMAP.md`](./ROADMAP.md#target-file-tree). In short:
+## Deploy to GitHub Pages
 
-| Folder | Purpose |
-| --- | --- |
-| `css/` | Design system: tokens → base → layout → components → pages → reader |
-| `js/` | ES modules: `core`, `lib`, `components`, `effects`, `pages` |
-| `data/` | JSON for site settings, topics and the article index |
-| `content/articles/` | One Markdown file per article |
-| `assets/` | Images and social-share art |
-| `scripts/` | Maintenance helpers |
-| `docs/` | Architecture and content guide |
+1. Open **Settings → Pages**.
+2. Choose **Deploy from a branch**.
+3. Select branch **2.0** and folder **/(root)**, then Save.
+4. Wait for the Pages deployment workflow to finish.
 
-## Branches
+Expected project URL: https://tanvirpersonal.github.io/cosmic-weekly/
 
-- `1.0` — the new professional rebuild (this branch)
-- `main` — the previous single-page version, kept untouched
+## Features
+
+- Responsive home, archive, article reader, about and contact pages
+- Article search overlay (press `/`) and topic filtering
+- Markdown reader with table of contents, reading progress and related stories
+- Dark/light theme with saved preference
+- Reduced-motion-aware starfield and scroll reveal
+- PWA manifest, 404 page, robots.txt and sitemap
+- Safe Markdown rendering: raw HTML is escaped
+
+## Content
+
+See [Content guide](docs/CONTENT-GUIDE.md) and [Architecture](docs/ARCHITECTURE.md).
+
+## Important launch setting
+
+Update `email` in `data/site.json` from the placeholder `hello@example.com` to a real editorial address before using the contact form.
+
+GitHub Pages account settings cannot be changed by a repository commit. Enable branch `2.0` and root folder in Settings → Pages.
 
 ## License
 
