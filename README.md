@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `█████░░░░░░░░░░░░░░░` 13/52 items (25%)
+**Progress:** `█████░░░░░░░░░░░░░░░` 14/52 items (27%)
 
-- **Last finished:** #13 — `css/reader.css`
-- **Next up:** #14 — `data/site.json` (site name, tagline, nav, social, SEO defaults)
+- **Last finished:** #14 — `data/site.json`
+- **Next up:** #15 — `data/topics.json` (topic list (Cosmos, Physics, Technology, Mind, Earth, Ideas))
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 

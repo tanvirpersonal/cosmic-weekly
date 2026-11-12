@@ -1,0 +1,38 @@
+{
+  "name": "Cosmic Weekly",
+  "tagline": "Curious science, told slowly.",
+  "description": "A weekly magazine about the cosmos, physics, technology, the mind and big ideas.",
+  "url": "https://tanvirpersonal.github.io/cosmic-weekly/",
+  "language": "en",
+  "email": "hello@example.com",
+  "nav": [
+    { "label": "Home", "path": "" },
+    { "label": "Articles", "path": "articles/" },
+    { "label": "About", "path": "about/" },
+    { "label": "Contact", "path": "contact/" }
+  ],
+  "footerLinks": [
+    {
+      "title": "Explore",
+      "links": [
+        { "label": "All articles", "path": "articles/" },
+        { "label": "About", "path": "about/" },
+        { "label": "Pitch a story", "path": "contact/" }
+      ]
+    },
+    {
+      "title": "Project",
+      "links": [
+        { "label": "GitHub", "href": "https://github.com/tanvirpersonal/cosmic-weekly" },
+        { "label": "Roadmap", "href": "https://github.com/tanvirpersonal/cosmic-weekly/blob/1.0/ROADMAP.md" }
+      ]
+    }
+  ],
+  "hero": {
+    "eyebrow": "New stories every week",
+    "titleStart": "Explore the universe,",
+    "titleAccent": "one idea",
+    "titleEnd": "at a time.",
+    "lede": "Long-form stories on space, physics, technology and the human mind — written to be read slowly and remembered."
+  }
+}
