@@ -22,6 +22,8 @@ jobs:
       - name: Check JavaScript syntax
         run: |
           find js -type f -name '*.js' -print0 | xargs -0 -r -n1 node --check
+      - name: Check internal links and article references
+        run: python3 tools/check_site.py
       - name: Validate JSON data
         run: |
           find data -type f -name '*.json' -print0 | while IFS= read -r -d '' file; do
