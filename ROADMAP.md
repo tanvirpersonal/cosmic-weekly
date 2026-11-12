@@ -63,7 +63,7 @@ cosmic-weekly/
 - [x] **01** `ROADMAP.md` — this plan
 - [x] **02** `README.md` — project overview + live status block
 - [x] **03** `scripts/ship.sh` — tick box, update README status, commit, push
-- [ ] **04** `.nojekyll` — disable Jekyll on Pages
+- [x] **04** `.nojekyll` — disable Jekyll on Pages
 - [ ] **05** `robots.txt`
 - [ ] **06** `favicon.svg` — new Cosmic Weekly mark
 - [ ] **07** `manifest.webmanifest` — installable web app metadata
