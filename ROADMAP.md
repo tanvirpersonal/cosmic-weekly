@@ -84,7 +84,7 @@ cosmic-weekly/
 - [x] **16** `content/articles/inside-a-black-hole.md`
 - [x] **17** `content/articles/webb-and-the-first-galaxies.md`
 - [x] **18** `content/articles/how-machines-learn.md`
-- [ ] **19** `content/articles/the-physics-of-a-snowflake.md`
+- [x] **19** `content/articles/the-physics-of-a-snowflake.md`
 - [ ] **20** `content/articles/why-we-dream.md`
 - [ ] **21** `content/articles/slow-ideas.md`
 - [ ] **22** `data/articles.json` — index of all articles (slug, title, dek, topic, date, readTime, cover, featured)
