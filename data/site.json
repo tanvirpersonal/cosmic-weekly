@@ -4,27 +4,54 @@
   "description": "A weekly magazine about the cosmos, physics, technology, the mind and big ideas.",
   "url": "https://tanvirpersonal.github.io/cosmic-weekly/",
   "language": "en",
-  "email": "hello@example.com",
+  "email": "mdtanvirrahman2021a@gmail.com",
   "nav": [
-    { "label": "Home", "path": "" },
-    { "label": "Articles", "path": "articles/" },
-    { "label": "About", "path": "about/" },
-    { "label": "Contact", "path": "contact/" }
+    {
+      "label": "Home",
+      "path": ""
+    },
+    {
+      "label": "Articles",
+      "path": "articles/"
+    },
+    {
+      "label": "About",
+      "path": "about/"
+    },
+    {
+      "label": "Contact",
+      "path": "contact/"
+    }
   ],
   "footerLinks": [
     {
       "title": "Explore",
       "links": [
-        { "label": "All articles", "path": "articles/" },
-        { "label": "About", "path": "about/" },
-        { "label": "Pitch a story", "path": "contact/" }
+        {
+          "label": "All articles",
+          "path": "articles/"
+        },
+        {
+          "label": "About",
+          "path": "about/"
+        },
+        {
+          "label": "Pitch a story",
+          "path": "contact/"
+        }
       ]
     },
     {
       "title": "Project",
       "links": [
-        { "label": "GitHub", "href": "https://github.com/tanvirpersonal/cosmic-weekly" },
-        { "label": "Roadmap", "href": "https://github.com/tanvirpersonal/cosmic-weekly/blob/2.0/ROADMAP.md" }
+        {
+          "label": "GitHub",
+          "href": "https://github.com/tanvirpersonal/cosmic-weekly"
+        },
+        {
+          "label": "Roadmap",
+          "href": "https://github.com/tanvirpersonal/cosmic-weekly/blob/2.0/ROADMAP.md"
+        }
       ]
     }
   ],
