@@ -70,7 +70,7 @@ cosmic-weekly/
 
 ## Phase 1 — Design system (CSS)
 
-- [ ] **08** `css/tokens.css` — colors, type scale, spacing, radius, shadows, motion, dark/light themes
+- [x] **08** `css/tokens.css` — colors, type scale, spacing, radius, shadows, motion, dark/light themes
 - [ ] **09** `css/base.css` — reset, typography, focus, selection, skip link, utilities
 - [ ] **10** `css/layout.css` — container, grid, section rhythm, header/footer shells
 - [ ] **11** `css/components.css` — buttons, chips, cards, forms, nav, toast, search overlay
