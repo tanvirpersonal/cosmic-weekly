@@ -6,7 +6,7 @@ A static editorial magazine about the cosmos, physics, technology, the mind and 
 
 - **Implementation:** 10/10 milestones complete (100%).
 - **Launch readiness:** 11/14 checklist items complete (79%).
-- The remaining launch tasks depend on enabling/verifying GitHub Pages and completing live-site QA.
+- GitHub Pages is enabled and its build has succeeded. Final deployment verification and live-site QA remain.
 
 See [ROADMAP.md](ROADMAP.md) for the tracked checklist.
 
