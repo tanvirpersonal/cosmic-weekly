@@ -91,7 +91,7 @@ cosmic-weekly/
 
 ## Phase 3 — JavaScript
 
-- [ ] **23** `js/config.js` — site root URL, paths, constants
+- [x] **23** `js/config.js` — site root URL, paths, constants
 - [ ] **24** `js/core/dom.js` — safe element builder, `qs`, `qsa`, `escapeHtml`
 - [ ] **25** `js/core/theme.js` — dark/light toggle with persistence
 - [ ] **26** `js/core/data.js` — fetch + cache JSON and Markdown
