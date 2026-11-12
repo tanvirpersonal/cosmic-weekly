@@ -33,6 +33,12 @@ jobs:
           done
       - name: Check site references
         run: python3 tools/check_site.py
+      - name: Install browser test dependency
+        run: npm install --no-save playwright
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+      - name: Run desktop and mobile browser smoke tests
+        run: npm run test:browser
       - name: Configure Pages
         uses: actions/configure-pages@v5
       - name: Upload static site
