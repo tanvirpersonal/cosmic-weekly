@@ -2,6 +2,14 @@
 
 A static editorial magazine about the cosmos, physics, technology, the mind and big ideas. Built with semantic HTML, modular CSS and native JavaScript ES modules. No framework or build step is required.
 
+## Project progress
+
+- **Implementation:** 10/10 milestones complete (100%).
+- **Launch readiness:** 10/14 checklist items complete (71%).
+- The remaining launch tasks depend on a real editorial email address, a one-time GitHub Pages setting, and live-site verification.
+
+See [ROADMAP.md](ROADMAP.md) for the tracked checklist.
+
 ## Run locally
 
 ```bash
@@ -28,16 +36,19 @@ Expected project URL: https://tanvirpersonal.github.io/cosmic-weekly/
 - Reduced-motion-aware starfield and scroll reveal
 - PWA manifest, 404 page, robots.txt and sitemap
 - Safe Markdown rendering: raw HTML is escaped
+- GitHub Actions checks JavaScript syntax and JSON data on pushes and pull requests to `2.0`
 
 ## Content
 
 See [Content guide](docs/CONTENT-GUIDE.md) and [Architecture](docs/ARCHITECTURE.md).
 
-## Important launch setting
+## Launch requirements
 
-Update `email` in `data/site.json` from the placeholder `hello@example.com` to a real editorial address before using the contact form.
+- Replace `email` in `data/site.json` with the real editorial inbox before using the contact form.
+- Enable GitHub Pages in repository settings using branch `2.0` and folder `/(root)`.
+- Verify the deployment and run desktop/mobile, keyboard, contrast and Lighthouse checks.
 
-GitHub Pages account settings cannot be changed by a repository commit. Enable branch `2.0` and root folder in Settings → Pages.
+GitHub Pages settings cannot be changed by a normal repository commit. The repository owner must enable the branch in **Settings → Pages**.
 
 ## License
 
