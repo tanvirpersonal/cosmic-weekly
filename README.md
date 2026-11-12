@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `███████░░░░░░░░░░░░░` 19/52 items (37%)
+**Progress:** `███████░░░░░░░░░░░░░` 20/52 items (38%)
 
-- **Last finished:** #19 — `content/articles/the-physics-of-a-snowflake.md`
-- **Next up:** #20 — `content/articles/why-we-dream.md`
+- **Last finished:** #20 — `content/articles/why-we-dream.md`
+- **Next up:** #21 — `content/articles/slow-ideas.md`
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 
