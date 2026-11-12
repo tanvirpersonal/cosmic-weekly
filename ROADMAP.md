@@ -87,7 +87,7 @@ cosmic-weekly/
 - [x] **19** `content/articles/the-physics-of-a-snowflake.md`
 - [x] **20** `content/articles/why-we-dream.md`
 - [x] **21** `content/articles/slow-ideas.md`
-- [ ] **22** `data/articles.json` — index of all articles (slug, title, dek, topic, date, readTime, cover, featured)
+- [x] **22** `data/articles.json` — index of all articles (slug, title, dek, topic, date, readTime, cover, featured)
 
 ## Phase 3 — JavaScript
 

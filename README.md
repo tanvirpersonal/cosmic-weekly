@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `████████░░░░░░░░░░░░` 21/52 items (40%)
+**Progress:** `████████░░░░░░░░░░░░` 22/52 items (42%)
 
-- **Last finished:** #21 — `content/articles/slow-ideas.md`
-- **Next up:** #22 — `data/articles.json` (index of all articles (slug, title, dek, topic, date, readTime, cover, featured))
+- **Last finished:** #22 — `data/articles.json`
+- **Next up:** #23 — `js/config.js` (site root URL, paths, constants)
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 

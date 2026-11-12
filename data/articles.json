@@ -1,0 +1,68 @@
+[
+  {
+    "slug": "inside-a-black-hole",
+    "title": "Inside a Black Hole",
+    "dek": "Where gravity wins every argument, and where our best theories stop agreeing with each other.",
+    "topic": "cosmos",
+    "date": "2026-11-10",
+    "readTime": 2,
+    "author": "Cosmic Weekly Desk",
+    "tags": ["black holes", "general relativity", "gravitational waves"],
+    "featured": true
+  },
+  {
+    "slug": "webb-and-the-first-galaxies",
+    "title": "Webb and the First Galaxies",
+    "dek": "A telescope built to look back in time is finding early galaxies that are brighter than expected.",
+    "topic": "cosmos",
+    "date": "2026-11-03",
+    "readTime": 2,
+    "author": "Cosmic Weekly Desk",
+    "tags": ["JWST", "infrared", "early universe"],
+    "featured": true
+  },
+  {
+    "slug": "how-machines-learn",
+    "title": "How Machines Learn",
+    "dek": "Strip away the mystery and machine learning is a loop of guessing, measuring and nudging.",
+    "topic": "technology",
+    "date": "2026-10-27",
+    "readTime": 2,
+    "author": "Cosmic Weekly Desk",
+    "tags": ["machine learning", "neural networks"],
+    "featured": true
+  },
+  {
+    "slug": "the-physics-of-a-snowflake",
+    "title": "The Physics of a Snowflake",
+    "dek": "Six arms, one cloud, and a hidden crystal lattice that makes the pattern look designed.",
+    "topic": "physics",
+    "date": "2026-10-20",
+    "readTime": 2,
+    "author": "Cosmic Weekly Desk",
+    "tags": ["crystals", "symmetry", "ice"],
+    "featured": false
+  },
+  {
+    "slug": "why-we-dream",
+    "title": "Why We Dream",
+    "dek": "We spend years of our lives dreaming, and science still argues about exactly why.",
+    "topic": "mind",
+    "date": "2026-10-13",
+    "readTime": 2,
+    "author": "Cosmic Weekly Desk",
+    "tags": ["sleep", "REM", "memory"],
+    "featured": false
+  },
+  {
+    "slug": "slow-ideas",
+    "title": "Slow Ideas",
+    "dek": "In a world of instant answers, some of the best thinking still happens at walking pace.",
+    "topic": "ideas",
+    "date": "2026-10-06",
+    "readTime": 2,
+    "author": "Cosmic Weekly Desk",
+    "tags": ["thinking", "attention", "essay"],
+    "featured": false
+  }
+]
