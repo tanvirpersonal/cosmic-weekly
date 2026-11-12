@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://tanvirpersonal.github.io/cosmic-weekly/</loc></url>
-<url><loc>https://tanvirpersonal.github.io/cosmic-weekly/articles/</loc></url>
-<url><loc>https://tanvirpersonal.github.io/cosmic-weekly/about/</loc></url>
-<url><loc>https://tanvirpersonal.github.io/cosmic-weekly/contact/</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/articles/</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/about/</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/contact/</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/article/?slug=inside-a-black-hole</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/article/?slug=webb-and-the-first-galaxies</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/article/?slug=how-machines-learn</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/article/?slug=the-physics-of-a-snowflake</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/article/?slug=why-we-dream</loc></url>
+  <url><loc>https://tanvirpersonal.github.io/cosmic-weekly/article/?slug=slow-ideas</loc></url>
 </urlset>
