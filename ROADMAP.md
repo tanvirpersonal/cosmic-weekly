@@ -21,7 +21,7 @@
 ## Launch checklist
 
 - [x] Set the editorial contact email in `data/site.json`.
-- [ ] Enable GitHub Pages: Settings → Pages → Deploy from a branch → branch `2.0` → folder `/(root)`.
+- [x] Enable GitHub Pages: branch `2.0`, folder `/(root)` (Pages build has run successfully).
 - [ ] Verify the Pages deployment workflow and live URL.
 - [ ] Complete desktop/mobile, keyboard, contrast and Lighthouse QA.
 
