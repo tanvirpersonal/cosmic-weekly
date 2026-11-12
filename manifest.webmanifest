@@ -1,0 +1,18 @@
+{
+  "name": "Cosmic Weekly",
+  "short_name": "Cosmic Weekly",
+  "description": "A weekly magazine about the cosmos, physics, technology, the mind and big ideas.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070914",
+  "theme_color": "#070914",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

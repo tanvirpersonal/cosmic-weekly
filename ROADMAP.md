@@ -66,7 +66,7 @@ cosmic-weekly/
 - [x] **04** `.nojekyll` — disable Jekyll on Pages
 - [x] **05** `robots.txt`
 - [x] **06** `favicon.svg` — new Cosmic Weekly mark
-- [ ] **07** `manifest.webmanifest` — installable web app metadata
+- [x] **07** `manifest.webmanifest` — installable web app metadata
 
 ## Phase 1 — Design system (CSS)
 
