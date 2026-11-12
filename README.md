@@ -5,8 +5,8 @@ A static editorial magazine about the cosmos, physics, technology, the mind and 
 ## Project progress
 
 - **Implementation:** 10/10 milestones complete (100%).
-- **Launch readiness:** 12/14 checklist items complete (86%).
-- The GitHub Actions deployment workflow is committed. Switching Pages Source to GitHub Actions, confirming deployment, and live-site QA remain.
+- **Launch readiness:** 13/14 checklist items complete (93%).
+- The GitHub Actions deployment workflow is active and the latest deployment succeeded. Automated desktop/mobile browser smoke tests pass. Final manual browser, keyboard, contrast and Lighthouse review remains.
 
 See [ROADMAP.md](ROADMAP.md) for the tracked checklist.
 
@@ -46,10 +46,12 @@ See [Content guide](docs/CONTENT-GUIDE.md) and [Architecture](docs/ARCHITECTURE.
 ## Launch requirements
 
 - Editorial contact email is configured in `data/site.json`.
-- GitHub Pages was previously enabled using branch `2.0` and folder `/(root)`. Switch **Source** to **GitHub Actions** to use the new deployment workflow.
-- Verify the deployment and run desktop/mobile, keyboard, contrast and Lighthouse checks.
+- GitHub Pages Source is set to **GitHub Actions**.
+- Latest deployment completed successfully.
+- Automated Chromium smoke tests pass on desktop and mobile viewports.
+- Remaining: manual keyboard/assistive-technology review, visual contrast review and Lighthouse performance/accessibility audit.
 
-GitHub Pages Source settings cannot be changed by a normal repository commit. The repository owner must select **GitHub Actions** in **Settings → Pages**.
+The browser smoke suite runs before every deployment; a failing test blocks publication.
 
 ## License
 
