@@ -3,7 +3,7 @@
 ## Progress
 
 - **Implementation milestones:** 10/10 complete (100%).
-- **Launch checklist:** 11/14 complete (79%).
+- **Launch checklist:** 12/14 complete (86%).
 
 ## Implementation — complete
 
@@ -27,7 +27,7 @@
 
 ## Automated checks
 
-A GitHub Actions workflow checks JavaScript syntax and parses every JSON file under `data/` on pushes and pull requests targeting `2.0`. Check the Actions tab for its result after the next push.
+A GitHub Actions workflow checks JavaScript syntax, local HTML links, article body references, topic references and JSON data on pushes and pull requests targeting `2.0`.
 
 ## Deployment target
 
