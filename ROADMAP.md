@@ -65,7 +65,7 @@ cosmic-weekly/
 - [x] **03** `scripts/ship.sh` — tick box, update README status, commit, push
 - [x] **04** `.nojekyll` — disable Jekyll on Pages
 - [x] **05** `robots.txt`
-- [ ] **06** `favicon.svg` — new Cosmic Weekly mark
+- [x] **06** `favicon.svg` — new Cosmic Weekly mark
 - [ ] **07** `manifest.webmanifest` — installable web app metadata
 
 ## Phase 1 — Design system (CSS)

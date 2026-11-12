@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `██░░░░░░░░░░░░░░░░░░` 5/52 items (10%)
+**Progress:** `██░░░░░░░░░░░░░░░░░░` 6/52 items (12%)
 
-- **Last finished:** #05 — `robots.txt`
-- **Next up:** #06 — `favicon.svg` (new Cosmic Weekly mark)
+- **Last finished:** #06 — `favicon.svg`
+- **Next up:** #07 — `manifest.webmanifest` (installable web app metadata)
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 

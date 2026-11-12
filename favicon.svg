@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Cosmic Weekly">
+  <defs>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8b7bff"/>
+      <stop offset="1" stop-color="#2fd6e8"/>
+    </linearGradient>
+    <radialGradient id="core" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#ffe3a3"/>
+      <stop offset="1" stop-color="#f2a93b"/>
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#070914"/>
+  <ellipse cx="32" cy="32" rx="22" ry="9" fill="none" stroke="url(#ring)" stroke-width="3" transform="rotate(-24 32 32)"/>
+  <circle cx="32" cy="32" r="9" fill="url(#core)"/>
+  <circle cx="51" cy="24" r="2.6" fill="#2fd6e8"/>
+  <circle cx="13" cy="42" r="1.6" fill="#ffffff" opacity=".85"/>
+  <circle cx="17" cy="15" r="1.1" fill="#ffffff" opacity=".6"/>
+</svg>
