@@ -75,7 +75,7 @@ cosmic-weekly/
 - [x] **10** `css/layout.css` — container, grid, section rhythm, header/footer shells
 - [x] **11** `css/components.css` — buttons, chips, cards, forms, nav, toast, search overlay
 - [x] **12** `css/pages.css` — hero, home sections, archive, about, contact, 404
-- [ ] **13** `css/reader.css` — article typography, progress bar, TOC, code, quotes, tables
+- [x] **13** `css/reader.css` — article typography, progress bar, TOC, code, quotes, tables
 
 ## Phase 2 — Data & content
 
