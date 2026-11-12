@@ -3,7 +3,7 @@
 ## Progress
 
 - **Implementation milestones:** 10/10 complete (100%).
-- **Launch checklist:** 10/14 complete (71%).
+- **Launch checklist:** 11/14 complete (79%).
 
 ## Implementation — complete
 
@@ -20,7 +20,7 @@
 
 ## Launch checklist
 
-- [ ] Replace the placeholder editorial email in `data/site.json` with the real editorial inbox.
+- [x] Set the editorial contact email in `data/site.json`.
 - [ ] Enable GitHub Pages: Settings → Pages → Deploy from a branch → branch `2.0` → folder `/(root)`.
 - [ ] Verify the Pages deployment workflow and live URL.
 - [ ] Complete desktop/mobile, keyboard, contrast and Lighthouse QA.
