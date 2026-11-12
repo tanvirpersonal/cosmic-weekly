@@ -1,0 +1,9 @@
+{
+  "name": "cosmic-weekly",
+  "private": true,
+  "version": "2.0.0",
+  "description": "Static editorial magazine",
+  "scripts": {
+    "test:browser": "node tools/browser-smoke.mjs"
+  }
+}
