@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `██████░░░░░░░░░░░░░░` 17/52 items (33%)
+**Progress:** `███████░░░░░░░░░░░░░` 18/52 items (35%)
 
-- **Last finished:** #17 — `content/articles/webb-and-the-first-galaxies.md`
-- **Next up:** #18 — `content/articles/how-machines-learn.md`
+- **Last finished:** #18 — `content/articles/how-machines-learn.md`
+- **Next up:** #19 — `content/articles/the-physics-of-a-snowflake.md`
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 

@@ -83,7 +83,7 @@ cosmic-weekly/
 - [x] **15** `data/topics.json` — topic list (Cosmos, Physics, Technology, Mind, Earth, Ideas)
 - [x] **16** `content/articles/inside-a-black-hole.md`
 - [x] **17** `content/articles/webb-and-the-first-galaxies.md`
-- [ ] **18** `content/articles/how-machines-learn.md`
+- [x] **18** `content/articles/how-machines-learn.md`
 - [ ] **19** `content/articles/the-physics-of-a-snowflake.md`
 - [ ] **20** `content/articles/why-we-dream.md`
 - [ ] **21** `content/articles/slow-ideas.md`
