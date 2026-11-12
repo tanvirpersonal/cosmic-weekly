@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `███████░░░░░░░░░░░░░` 20/52 items (38%)
+**Progress:** `████████░░░░░░░░░░░░` 21/52 items (40%)
 
-- **Last finished:** #20 — `content/articles/why-we-dream.md`
-- **Next up:** #21 — `content/articles/slow-ideas.md`
+- **Last finished:** #21 — `content/articles/slow-ideas.md`
+- **Next up:** #22 — `data/articles.json` (index of all articles (slug, title, dek, topic, date, readTime, cover, featured))
 - **Updated:** 2026-11-12
 <!-- STATUS:END -->
 
