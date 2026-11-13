@@ -110,7 +110,7 @@ cosmic-weekly/
 - [x] **36** `index.html` — Home shell
 - [x] **37** `js/pages/home.js` — hero, featured, latest, topics, newsletter-style CTA
 - [x] **38** `articles/index.html` — Archive shell
-- [ ] **39** `js/pages/archive.js` — search, topic filter, sort, URL-synced state
+- [x] **39** `js/pages/archive.js` — search, topic filter, sort, URL-synced state
 - [ ] **40** `article/index.html` — Reader shell
 - [ ] **41** `js/pages/article.js` — load Markdown, TOC, progress bar, related, prev/next, share
 - [ ] **42** `about/index.html`
