@@ -103,7 +103,7 @@ cosmic-weekly/
 - [x] **32** `js/components/toast.js`
 - [x] **33** `js/effects/starfield.js` — lightweight canvas starfield (pauses when hidden / reduced motion)
 - [x] **34** `js/effects/reveal.js` — scroll reveal via IntersectionObserver
-- [ ] **35** `js/main.js` — boot: theme, header, footer, starfield, reveal, search
+- [x] **35** `js/main.js` — boot: theme, header, footer, starfield, reveal, search
 
 ## Phase 4 — Pages
 
