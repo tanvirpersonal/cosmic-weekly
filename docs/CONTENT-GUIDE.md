@@ -24,7 +24,7 @@ Add an entry to `data/articles.json`:
 }
 ```
 
-`topic` must match an `id` in `data/topics.json`. Set `featured: true` on one article to make it the home-page hero story.
+`topic` must match an `id` in `data/topics.json`. Articles with `featured: true` are shown in the home-page featured section.
 
 ## 3. Refresh the sitemap and publish
 
