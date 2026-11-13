@@ -26,7 +26,7 @@
 | Styling | CSS custom properties (tokens) → base → layout → components → pages → reader. No frameworks. |
 | Fonts | Fraunces (display), Inter (UI), JetBrains Mono (labels) via Google Fonts, with system fallbacks. |
 | Look | Deep-space observatory: ink-blue black, aurora violet/cyan accents, warm gold highlights, large editorial type. Dark default, light theme supported. |
-| Accessibility | Semantic landmarks, skip link, visible focus, `prefers-reduced-motion`, `prefers-color-scheme`, alt text, AA contrast. |
+| Accessibility | Semantic landmarks, skip link, visible focus, `prefers-reduced-motion`, alt text, AA contrast. |
 | Security | No `innerHTML` with unescaped data; Markdown parser escapes HTML; external links get `rel="noopener noreferrer"`. |
 
 ## Target file tree

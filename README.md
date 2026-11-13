@@ -25,7 +25,7 @@ The full checklist lives in [`ROADMAP.md`](./ROADMAP.md). Every file there has a
 - Home with animated starfield hero, featured story, latest stories and topic explorer
 - Article archive with live search, topic filters, sorting and shareable URLs
 - Reader with reading-progress bar, table of contents, related stories and prev/next
-- Dark and light themes (remembers the choice, respects system settings)
+- Dark by default with an optional light theme (remembers the visitor's choice)
 - Full keyboard support, reduced-motion support and responsive layout
 - Content as Markdown files — add an article without touching any code
 

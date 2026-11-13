@@ -146,42 +146,6 @@
   --shadow-3: 0 24px 70px rgba(30, 30, 90, 0.2);
 }
 
-/* No saved choice + system prefers light → follow the system (works without JS) */
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme]) {
-    color-scheme: light;
-
-    --bg: #f7f6ff;
-    --bg-elev: #ffffff;
-    --surface: #ffffff;
-    --surface-2: #eeecfb;
-    --overlay: rgba(247, 246, 255, 0.88);
-    --line: rgba(40, 40, 110, 0.12);
-    --line-strong: rgba(40, 40, 110, 0.26);
-    --text: #11122a;
-    --text-dim: #3f4268;
-    --text-mute: #666a92;
-    --text-invert: #f7f6ff;
-    --accent: #5b46e6;
-    --accent-2: #0a8fa3;
-    --gold: #b9770e;
-    --danger: #c7274a;
-    --success: #12875a;
-    --focus: #5b46e6;
-    --aurora: linear-gradient(120deg, #5b46e6 0%, #0a8fa3 55%, #b9770e 100%);
-    --aurora-soft: linear-gradient(
-      120deg,
-      rgba(91, 70, 230, 0.12),
-      rgba(10, 143, 163, 0.1) 55%,
-      rgba(185, 119, 14, 0.08)
-    );
-    --glow: 0 0 60px rgba(91, 70, 230, 0.16);
-    --shadow-1: 0 1px 2px rgba(30, 30, 90, 0.1);
-    --shadow-2: 0 10px 30px rgba(30, 30, 90, 0.12);
-    --shadow-3: 0 24px 70px rgba(30, 30, 90, 0.2);
-  }
-}
-
 /* --------------------------------------------------------------------------
    Reduced motion: shorten every duration at the token level
    -------------------------------------------------------------------------- */

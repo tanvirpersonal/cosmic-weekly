@@ -1,7 +1,7 @@
 /**
  * Theme (dark / light).
  *
- * Order of precedence: saved choice → system preference → dark.
+ * Order of precedence: saved choice → dark (the site is dark by default; light is opt-in).
  * Each HTML page also runs a tiny inline script in <head> (see page shells) that
  * applies the saved theme before first paint, so there is no flash.
  */
@@ -20,12 +20,8 @@ function readSaved() {
   }
 }
 
-function systemTheme() {
-  return window.matchMedia?.("(prefers-color-scheme: light)").matches ? "light" : "dark";
-}
-
 export function getTheme() {
-  return root.dataset.theme || readSaved() || systemTheme();
+  return root.dataset.theme || readSaved() || "dark";
 }
 
 function apply(theme) {
@@ -59,10 +55,5 @@ export function onThemeChange(fn) {
 
 /** Call once at startup. */
 export function initTheme() {
-  apply(readSaved() || systemTheme());
-
-  // Follow the system only while the user has not chosen explicitly.
-  window.matchMedia?.("(prefers-color-scheme: light)").addEventListener?.("change", (event) => {
-    if (!readSaved()) apply(event.matches ? "light" : "dark");
-  });
+  apply(readSaved() || "dark");
 }
