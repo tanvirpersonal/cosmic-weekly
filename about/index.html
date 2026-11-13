@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About — Cosmic Weekly</title>
+  <meta name="description" content="Cosmic Weekly is a magazine of long-form stories on the cosmos, physics, technology, the mind and big ideas, written to be read slowly.">
+  <meta name="theme-color" content="#070914">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+  <link rel="canonical" href="https://tanvirpersonal.github.io/cosmic-weekly/about/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cosmic Weekly">
+  <meta property="og:title" content="About — Cosmic Weekly">
+  <meta property="og:description" content="Long-form stories on science, technology and ideas, written to be read slowly.">
+  <meta property="og:url" content="https://tanvirpersonal.github.io/cosmic-weekly/about/">
+  <meta property="og:image" content="https://tanvirpersonal.github.io/cosmic-weekly/assets/og/cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.remove("no-js");
+      try {
+        var t = localStorage.getItem("cw-theme");
+        if (t === "light" || t === "dark") d.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+    <div class="container">
+      <div class="page-head">
+        <span class="label label--accent">About</span>
+        <h1>Curious science, <span class="text-gradient">told slowly.</span></h1>
+        <p>Cosmic Weekly is a small magazine for people who like to understand how things work, and who would rather read one good story than scroll a hundred headlines.</p>
+      </div>
+    </div>
+
+    <section class="section section--tight">
+      <div class="container">
+        <div class="about-split">
+          <div class="about-prose reveal">
+            <p>Every week we publish a few stories about the universe and the people trying to make sense of it.</p>
+            <p>We write about black holes and snowflakes, about how machines learn and why we dream. The subjects change, but the approach stays the same: explain the idea clearly, say what is still unknown, and trust the reader's curiosity.</p>
+            <p>Each story is short enough to finish in one sitting and careful enough to be worth remembering.</p>
+          </div>
+
+          <div class="grid" style="gap: var(--space-4)">
+            <article class="value-card reveal">
+              <span class="value-card__num">01</span>
+              <h2>Clear before clever</h2>
+              <p>Plain language first. Jargon only when it earns its place, and always explained.</p>
+            </article>
+            <article class="value-card reveal">
+              <span class="value-card__num">02</span>
+              <h2>Honest about uncertainty</h2>
+              <p>Science is a process, not a list of facts. We say what is known, what is debated and what is guesswork.</p>
+            </article>
+            <article class="value-card reveal">
+              <span class="value-card__num">03</span>
+              <h2>Made to be read slowly</h2>
+              <p>No clutter, no countdown timers. A calm page, generous type and room to think.</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Read the latest stories</h2>
+          <p>Start with the archive, or tell us what you would like to read next.</p>
+          <div class="cluster" style="justify-content:center">
+            <a class="btn btn--primary" href="../articles/">Browse articles</a>
+            <a class="btn btn--ghost" href="../contact/">Get in touch</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
