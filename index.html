@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cosmic Weekly — Curious science, told slowly</title>
+  <meta name="description" content="A weekly magazine about the cosmos, physics, technology, the mind and big ideas.">
+  <meta name="theme-color" content="#070914">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="canonical" href="https://tanvirpersonal.github.io/cosmic-weekly/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Cosmic Weekly">
+  <meta property="og:title" content="Cosmic Weekly — Curious science, told slowly">
+  <meta property="og:description" content="Long-form stories on space, physics, technology and the human mind.">
+  <meta property="og:url" content="https://tanvirpersonal.github.io/cosmic-weekly/">
+  <meta property="og:image" content="https://tanvirpersonal.github.io/cosmic-weekly/assets/og/cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+
+  <!-- Apply saved theme before first paint (no flash) -->
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.remove("no-js");
+      try {
+        var t = localStorage.getItem("cw-theme");
+        if (t === "light" || t === "dark") d.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="css/tokens.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/pages.css">
+</head>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+    <!-- Hero: static for SEO and no-JS; stats are filled by js/pages/home.js -->
+    <section class="hero">
+      <div class="hero__orbit" aria-hidden="true"></div>
+      <div class="container">
+        <div class="hero__inner">
+          <span class="hero__eyebrow label">New stories every week</span>
+          <h1 class="hero__title">Explore the universe, <em>one idea</em> at a time.</h1>
+          <p class="hero__lede">Long-form stories on space, physics, technology and the human mind — written to be read slowly and remembered.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="articles/">Read the latest</a>
+            <a class="btn btn--ghost" href="about/">About the magazine</a>
+          </div>
+          <div class="hero__stats" id="hero-stats" aria-label="Magazine at a glance"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <span class="label label--accent">Editor's picks</span>
+            <h2 class="section__title" id="featured-title">Featured stories</h2>
+          </div>
+        </div>
+        <div class="grid" id="featured" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="latest-title">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <span class="label label--accent">Fresh off the press</span>
+            <h2 class="section__title" id="latest-title">Latest</h2>
+          </div>
+          <a class="btn btn--ghost btn--sm" href="articles/">View all articles</a>
+        </div>
+        <div class="grid grid--cards" id="latest" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="section section--tight" aria-labelledby="topics-title">
+      <div class="container">
+        <div class="section__head">
+          <div>
+            <span class="label label--accent">Browse by subject</span>
+            <h2 class="section__title" id="topics-title">Topics</h2>
+          </div>
+        </div>
+        <div class="topics-grid" id="topics"></div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="cta-band reveal">
+          <h2>Have a story worth telling?</h2>
+          <p>We welcome pitches on science, technology and ideas — especially from people close to the work.</p>
+          <a class="btn btn--primary" href="contact/">Pitch a story</a>
+        </div>
+      </div>
+    </section>
+
+    <noscript>
+      <div class="container section"><p class="dim">Cosmic Weekly needs JavaScript to list its stories. Please enable it to continue.</p></div>
+    </noscript>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

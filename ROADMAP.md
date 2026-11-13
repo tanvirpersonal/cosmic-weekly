@@ -107,7 +107,7 @@ cosmic-weekly/
 
 ## Phase 4 — Pages
 
-- [ ] **36** `index.html` — Home shell
+- [x] **36** `index.html` — Home shell
 - [ ] **37** `js/pages/home.js` — hero, featured, latest, topics, newsletter-style CTA
 - [ ] **38** `articles/index.html` — Archive shell
 - [ ] **39** `js/pages/archive.js` — search, topic filter, sort, URL-synced state
