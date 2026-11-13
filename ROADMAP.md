@@ -112,7 +112,7 @@ cosmic-weekly/
 - [x] **38** `articles/index.html` — Archive shell
 - [x] **39** `js/pages/archive.js` — search, topic filter, sort, URL-synced state
 - [x] **40** `article/index.html` — Reader shell
-- [ ] **41** `js/pages/article.js` — load Markdown, TOC, progress bar, related, prev/next, share
+- [x] **41** `js/pages/article.js` — load Markdown, TOC, progress bar, related, prev/next, share
 - [ ] **42** `about/index.html`
 - [ ] **43** `contact/index.html` — pitch form (opens mail client, no backend)
 - [ ] **44** `js/pages/contact.js`
