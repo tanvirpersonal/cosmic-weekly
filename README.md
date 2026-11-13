@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `████████████░░░░░░░░` 31/52 items (60%)
+**Progress:** `████████████░░░░░░░░` 32/52 items (62%)
 
-- **Last finished:** #31 — `js/components/search.js`
-- **Next up:** #32 — `js/components/toast.js`
+- **Last finished:** #32 — `js/components/toast.js`
+- **Next up:** #33 — `js/effects/starfield.js` (lightweight canvas starfield (pauses when hidden / reduced motion))
 - **Updated:** 2026-11-14
 <!-- STATUS:END -->
 
