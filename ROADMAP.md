@@ -101,7 +101,7 @@ cosmic-weekly/
 - [x] **30** `js/components/cards.js` — featured card, article card, topic chip
 - [x] **31** `js/components/search.js` — full-screen live search overlay (`/` shortcut)
 - [x] **32** `js/components/toast.js`
-- [ ] **33** `js/effects/starfield.js` — lightweight canvas starfield (pauses when hidden / reduced motion)
+- [x] **33** `js/effects/starfield.js` — lightweight canvas starfield (pauses when hidden / reduced motion)
 - [ ] **34** `js/effects/reveal.js` — scroll reveal via IntersectionObserver
 - [ ] **35** `js/main.js` — boot: theme, header, footer, starfield, reveal, search
 
