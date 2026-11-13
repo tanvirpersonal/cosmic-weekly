@@ -114,7 +114,7 @@ cosmic-weekly/
 - [x] **40** `article/index.html` — Reader shell
 - [x] **41** `js/pages/article.js` — load Markdown, TOC, progress bar, related, prev/next, share
 - [x] **42** `about/index.html`
-- [ ] **43** `contact/index.html` — pitch form (opens mail client, no backend)
+- [x] **43** `contact/index.html` — pitch form (opens mail client, no backend)
 - [ ] **44** `js/pages/contact.js`
 - [ ] **45** `404.html`
 

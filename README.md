@@ -5,10 +5,10 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `████████████████░░░░` 42/52 items (81%)
+**Progress:** `████████████████░░░░` 43/52 items (83%)
 
-- **Last finished:** #42 — `about/index.html`
-- **Next up:** #43 — `contact/index.html` (pitch form (opens mail client, no backend))
+- **Last finished:** #43 — `contact/index.html`
+- **Next up:** #44 — `js/pages/contact.js`
 - **Updated:** 2026-11-14
 <!-- STATUS:END -->
 
