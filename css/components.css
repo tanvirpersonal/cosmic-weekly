@@ -129,6 +129,10 @@
 
 .btn--primary:hover { color: #090b1c; box-shadow: 0 0 80px rgba(139, 123, 255, 0.45); }
 
+/* Light theme: the gradient is darker, so use white text for AA contrast */
+:root[data-theme="light"] .btn--primary,
+:root[data-theme="light"] .btn--primary:hover { color: #fff; }
+
 .btn--ghost {
   background: transparent;
   border-color: var(--line-strong);
