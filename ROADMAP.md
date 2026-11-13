@@ -98,7 +98,7 @@ cosmic-weekly/
 - [x] **27** `js/lib/markdown.js` — safe Markdown → HTML (headings, lists, quotes, code, tables, links, images)
 - [x] **28** `js/components/header.js` — nav, theme toggle, search button, mobile menu
 - [x] **29** `js/components/footer.js`
-- [ ] **30** `js/components/cards.js` — featured card, article card, topic chip
+- [x] **30** `js/components/cards.js` — featured card, article card, topic chip
 - [ ] **31** `js/components/search.js` — full-screen live search overlay (`/` shortcut)
 - [ ] **32** `js/components/toast.js`
 - [ ] **33** `js/effects/starfield.js` — lightweight canvas starfield (pauses when hidden / reduced motion)
