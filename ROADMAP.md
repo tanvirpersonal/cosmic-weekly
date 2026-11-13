@@ -123,7 +123,7 @@ cosmic-weekly/
 - [x] **46** `assets/og/cover.svg` — social share image (+ cover.png render used by og:image)
 - [x] **47** `scripts/build-sitemap.mjs` — generates `sitemap.xml` from `data/articles.json`
 - [x] **48** `sitemap.xml`
-- [ ] **49** `docs/ARCHITECTURE.md`
+- [x] **49** `docs/ARCHITECTURE.md`
 - [ ] **50** `docs/CONTENT-GUIDE.md` — how to add an article in 3 steps
 - [ ] **51** QA pass — links, mobile widths, keyboard, contrast, reduced motion; fix findings
 - [ ] **52** Final — set GitHub Pages source to branch `1.0`, update README with live URL
