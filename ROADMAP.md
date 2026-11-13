@@ -116,7 +116,7 @@ cosmic-weekly/
 - [x] **42** `about/index.html`
 - [x] **43** `contact/index.html` — pitch form (opens mail client, no backend)
 - [x] **44** `js/pages/contact.js`
-- [ ] **45** `404.html`
+- [x] **45** `404.html`
 
 ## Phase 5 — Polish, SEO, docs
 

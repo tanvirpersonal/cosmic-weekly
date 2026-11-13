@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Page not found — Cosmic Weekly</title>
+  <meta name="description" content="This page drifted out of orbit.">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#070914">
+
+  <!--
+    GitHub Pages serves this file for ANY missing URL, at any depth
+    (e.g. /cosmic-weekly/foo/bar/). Relative paths would then break, so we set a
+    <base> first: "/<repo>/" on github.io project sites, "/" everywhere else.
+  -->
+  <script>
+    (function () {
+      var parts = location.pathname.split("/");
+      var base = /\.github\.io$/.test(location.hostname) && parts[1] ? "/" + parts[1] + "/" : "/";
+      document.write('<base href="' + base + '">');
+      // Stylesheets are added here, after <base>, so the browser never requests them
+      // speculatively from the wrong folder.
+      ["tokens", "base", "layout", "components", "pages"].forEach(function (name) {
+        document.write('<link rel="stylesheet" href="css/' + name + '.css">');
+      });
+    })();
+  </script>
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.remove("no-js");
+      try {
+        var t = localStorage.getItem("cw-theme");
+        if (t === "light" || t === "dark") d.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+</head>
+<body data-page="404">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+    <div class="container">
+      <div class="notfound">
+        <div>
+          <span class="label label--accent">Error 404</span>
+          <div class="notfound__code text-gradient" aria-hidden="true">404</div>
+          <h1 class="sr-only">Page not found</h1>
+          <p>This page drifted out of orbit. The link may be broken, or the story may have moved.</p>
+          <div class="cluster" style="justify-content:center">
+            <a class="btn btn--primary" href="./">Back to home</a>
+            <a class="btn btn--ghost" href="articles/">Browse articles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script>
+    // Added dynamically for the same reason as the stylesheets (resolved against <base>).
+    var boot = document.createElement("script");
+    boot.type = "module";
+    boot.src = "js/main.js";
+    document.body.append(boot);
+  </script>
+</body>
+</html>
