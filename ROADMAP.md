@@ -96,7 +96,7 @@ cosmic-weekly/
 - [x] **25** `js/core/theme.js` — dark/light toggle with persistence
 - [x] **26** `js/core/data.js` — fetch + cache JSON and Markdown
 - [x] **27** `js/lib/markdown.js` — safe Markdown → HTML (headings, lists, quotes, code, tables, links, images)
-- [ ] **28** `js/components/header.js` — nav, theme toggle, search button, mobile menu
+- [x] **28** `js/components/header.js` — nav, theme toggle, search button, mobile menu
 - [ ] **29** `js/components/footer.js`
 - [ ] **30** `js/components/cards.js` — featured card, article card, topic chip
 - [ ] **31** `js/components/search.js` — full-screen live search overlay (`/` shortcut)
