@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Reading — Cosmic Weekly</title>
+  <meta name="description" content="Read a story on Cosmic Weekly.">
+  <meta name="theme-color" content="#070914">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="../manifest.webmanifest">
+
+  <!-- Open Graph / canonical are updated per article by js/pages/article.js -->
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Cosmic Weekly">
+  <meta property="og:title" content="Cosmic Weekly">
+  <meta property="og:description" content="Curious science, told slowly.">
+  <meta property="og:image" content="https://tanvirpersonal.github.io/cosmic-weekly/assets/og/cover.svg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.classList.remove("no-js");
+      try {
+        var t = localStorage.getItem("cw-theme");
+        if (t === "light" || t === "dark") d.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <link rel="stylesheet" href="../css/tokens.css">
+  <link rel="stylesheet" href="../css/base.css">
+  <link rel="stylesheet" href="../css/layout.css">
+  <link rel="stylesheet" href="../css/components.css">
+  <link rel="stylesheet" href="../css/pages.css">
+  <link rel="stylesheet" href="../css/reader.css">
+</head>
+<body data-page="article">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="progress" aria-hidden="true"><span class="progress__bar" id="progress-bar"></span></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <header id="site-header" class="site-header"></header>
+
+  <main id="main">
+    <!-- Filled by js/pages/article.js -->
+    <div class="container" id="article-root" aria-live="polite">
+      <div class="article-head"><div class="skeleton" style="min-height:220px" aria-hidden="true"></div></div>
+    </div>
+
+    <noscript>
+      <div class="container section"><p class="dim">Cosmic Weekly needs JavaScript to display stories. Please enable it to continue.</p></div>
+    </noscript>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script type="module" src="../js/main.js"></script>
+</body>
+</html>
