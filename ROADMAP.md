@@ -120,7 +120,7 @@ cosmic-weekly/
 
 ## Phase 5 — Polish, SEO, docs
 
-- [ ] **46** `assets/og/cover.svg` — social share image
+- [x] **46** `assets/og/cover.svg` — social share image (+ cover.png render used by og:image)
 - [ ] **47** `scripts/build-sitemap.mjs` — generates `sitemap.xml` from `data/articles.json`
 - [ ] **48** `sitemap.xml`
 - [ ] **49** `docs/ARCHITECTURE.md`
