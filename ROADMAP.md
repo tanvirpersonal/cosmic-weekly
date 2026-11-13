@@ -115,7 +115,7 @@ cosmic-weekly/
 - [x] **41** `js/pages/article.js` — load Markdown, TOC, progress bar, related, prev/next, share
 - [x] **42** `about/index.html`
 - [x] **43** `contact/index.html` — pitch form (opens mail client, no backend)
-- [ ] **44** `js/pages/contact.js`
+- [x] **44** `js/pages/contact.js`
 - [ ] **45** `404.html`
 
 ## Phase 5 — Polish, SEO, docs
