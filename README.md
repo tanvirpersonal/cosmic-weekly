@@ -5,11 +5,11 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `██████████░░░░░░░░░░` 26/52 items (50%)
+**Progress:** `██████████░░░░░░░░░░` 27/52 items (52%)
 
-- **Last finished:** #26 — `js/core/data.js`
-- **Next up:** #27 — `js/lib/markdown.js` (safe Markdown → HTML (headings, lists, quotes, code, tables, links, images))
-- **Updated:** 2026-11-12
+- **Last finished:** #27 — `js/lib/markdown.js`
+- **Next up:** #28 — `js/components/header.js` (nav, theme toggle, search button, mobile menu)
+- **Updated:** 2026-11-14
 <!-- STATUS:END -->
 
 The full checklist lives in [`ROADMAP.md`](./ROADMAP.md). Every file there has a checkbox; a ticked box means the file is finished and pushed.
