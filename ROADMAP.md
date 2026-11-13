@@ -126,7 +126,7 @@ cosmic-weekly/
 - [x] **49** `docs/ARCHITECTURE.md`
 - [x] **50** `docs/CONTENT-GUIDE.md` — how to add an article in 3 steps
 - [x] **51** QA pass — links, mobile widths, keyboard, contrast, reduced motion; fix findings
-- [ ] **52** Final — set GitHub Pages source to branch `1.0`, update README with live URL
+- [x] **52** Final — set GitHub Pages source to branch `1.0`, update README with live URL
 
 ---
 
@@ -135,3 +135,4 @@ cosmic-weekly/
 | Date | Done | Notes |
 | --- | --- | --- |
 | 2026-11-12 | 01 | Branch `1.0` created as a clean orphan branch; `main` (old single-page version) left untouched. |
+| 2026-11-12 – 14 | 02–52 | All files built, one push per item. QA: fixed 320px header overflow. Remaining by hand: set Pages source to `1.0`, replace placeholder email. |

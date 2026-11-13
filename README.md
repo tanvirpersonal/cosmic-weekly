@@ -5,12 +5,18 @@ A dynamic, editorial-style magazine website about the cosmos, physics, technolog
 ## Build status
 
 <!-- STATUS:START -->
-**Progress:** `███████████████████░` 51/52 items (98%)
+**Progress:** `████████████████████` 52/52 items (100%)
 
-- **Last finished:** #51 — `QA pass`
-- **Next up:** #52 — `Final` (set GitHub Pages source to branch `1.0`, update README with live URL)
+- **Last finished:** #52 — `Final`
+- **Next up:** all items complete 🎉
 - **Updated:** 2026-11-14
 <!-- STATUS:END -->
+
+## Live site
+
+**https://tanvirpersonal.github.io/cosmic-weekly/** — enable it in the repo: *Settings → Pages → Source: Deploy from a branch → Branch `1.0` / root*.
+
+Before going public, replace the placeholder email in `data/site.json`. Docs: [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md), [`docs/CONTENT-GUIDE.md`](docs/CONTENT-GUIDE.md).
 
 The full checklist lives in [`ROADMAP.md`](./ROADMAP.md). Every file there has a checkbox; a ticked box means the file is finished and pushed.
 
