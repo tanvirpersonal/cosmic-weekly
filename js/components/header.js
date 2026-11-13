@@ -2,7 +2,7 @@
  * Site header: brand, nav, search button, theme toggle, mobile menu.
  * Mounts into <header id="site-header">.
  */
-import { url } from "../config.js";
+import { ROOT, url } from "../config.js";
 import { h, qs, replace, icon, ICONS } from "../core/dom.js";
 import { getTheme, toggleTheme, onThemeChange } from "../core/theme.js";
 
@@ -22,9 +22,11 @@ const brandMark = () => {
 /** True when `path` is the page we are on (handles "" for home). */
 function isCurrent(path) {
   const here = location.pathname.replace(/index\.html$/, "");
-  const target = new URL(path, new URL("../", import.meta.url)).pathname;
+  const target = new URL(path, ROOT).pathname;
   if (path === "") return here === target;
-  return here.startsWith(target) || (path === "articles/" && here.startsWith(new URL("article/", new URL("../", import.meta.url)).pathname));
+  if (here.startsWith(target)) return true;
+  // the reader (/article/?slug=…) belongs to the "Articles" section
+  return path === "articles/" && here.startsWith(new URL("article/", ROOT).pathname);
 }
 
 export function mountHeader(site, { onSearch } = {}) {
